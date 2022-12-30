@@ -1,0 +1,52 @@
+* {
+    font-family: 'Futura Std', sans-serif;
+  }
+
+  h1,span,a{
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  a{
+    color: #D2412F;
+    text-decoration: none;
+  }
+
+  p{
+    font-size: 1.2rem;
+  }
+
+  .about{
+    color: #152FCB;
+  }
+
+  .curriculum{
+    color: #5C9B41;
+  }
+
+  .portfolio{
+    color: #FBEF50;
+  }
+
+  .textoF{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+
+  footer {
+    color: #FFFFFF;
+  }
+
+  .foot-link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .port-link{
+    color: #FBEF50;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }

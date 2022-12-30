@@ -1,0 +1,73 @@
+///////////HEADER + FOOTER
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-image: url('/img/fundoN.jpg');
+    background-size:cover;
+    background-position: center;
+    display: inline-flex;
+  flex-wrap: wrap;
+    //border: 3px solid white;
+    //display: flex;
+}
+
+footer{
+    width:100%;
+    background-image: url('/img/fundoF.jpg');
+    background-size:cover;
+    background-position: center;
+    display: flex;
+}
+
+///////////
+
+.navbar{
+    width:95%;
+    margin:auto;
+    min-height: 115px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.footer{
+    width:95%;
+    margin:auto;
+    min-height: 115px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+///////////
+
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.foot-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+}
+
+li{
+    list-style:none;
+}
+
+
+@media(max-width:1280px){
+    .container{
+        width:100%;
+    }
+}
